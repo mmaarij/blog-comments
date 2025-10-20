@@ -37,9 +37,7 @@ main {
   --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
 
 /* Giscus Custom Theme Variables - Match Site Dark Theme */
-.giscus, .giscus-frame {
-  /* Button Colors - Match your gray-800/gray-700 theme */
-  --color-btn-text: #e5e7eb; /* Your text color */
+--color-btn-text: #e5e7eb; /* Your text color */
   --color-btn-bg: rgba(55, 65, 81, 0.8); /* gray-700 with opacity */
   --color-btn-border: rgba(75, 85, 99, 0.3); /* gray-600 with low opacity */
   --color-btn-shadow: 0 0 transparent;
@@ -63,34 +61,6 @@ main {
   --color-btn-primary-disabled-text: rgba(229, 231, 235, 0.5);
   --color-btn-primary-disabled-bg: rgba(59, 130, 246, 0.4);
   --color-btn-primary-disabled-border: rgba(59, 130, 246, 0.2);
-}
-
-/* Additional Giscus components to match your theme */
-.giscus .gsc-comment-box-tabs {
-  border-color: #374151 !important; /* gray-700 */
-}
-
-.giscus .gsc-comment-box-tab {
-  background: rgba(55, 65, 81, 0.5) !important; /* gray-700 */
-  color: #9ca3af !important; /* gray-400 */
-  border-color: #374151 !important;
-}
-
-.giscus .gsc-comment-box-tab[aria-selected="true"] {
-  background: rgba(59, 130, 246, 0.2) !important; /* blue accent */
-  color: #3b82f6 !important;
-  border-color: #3b82f6 !important;
-}
-
-.giscus .gsc-comment-box-textarea {
-  background: rgba(31, 41, 55, 0.8) !important; /* gray-800 */
-  border-color: #374151 !important;
-  color: #e5e7eb !important;
-}
-
-.giscus .gsc-comment-box-textarea::placeholder {
-  color: #6b7280 !important; /* gray-500 */
-}
 
   
   --color-action-list-item-default-hover-bg: rgb(144 157 171 / 12%);
